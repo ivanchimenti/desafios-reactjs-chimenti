@@ -5,7 +5,30 @@
     
 }
 
-.bottom {
-    border-color: red;
-    color: white;
+.container ul {
+    display: flex;
+    padding: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+li {
+    margin: 20px;
+    list-style-type: none;
+}
+  
+li a {
+    background-color: red;
+    padding: 10px;
+    color: black;
+}
+
+img {
+    height: 80px;
+    width: 80px;
+    padding-left: 10px;
 }

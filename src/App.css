@@ -1,5 +1,10 @@
 .App {
+  font-family: sans-serif;
   text-align: center;
+}
+
+#root {
+  background-color: #19d668;
 }
 
 .App-logo {
