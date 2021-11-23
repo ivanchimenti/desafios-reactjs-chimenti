@@ -1,0 +1,14 @@
+.Header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    width: 100%;
+    min-height: 30vh;
+    border: 10px solid darkblue;
+}
+
+.Header h1, h2 {
+    color: white;
+}
