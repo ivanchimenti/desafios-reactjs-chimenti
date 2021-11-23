@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import './NavBar.css';
 import logo from './logo512.png';
+import { Icon } from 'semantic-ui-react';
 
 const NavBar = () => {
 
@@ -8,7 +9,9 @@ const NavBar = () => {
         <Fragment>
             <nav className="container navbar">
                 <img src={logo}/>
-                
+
+                <Icon name='cart arrow down' style={{fontSize: "5em", marginTop: "50px", color:"red"}}/>
+
                 <div className="barraBusqueda">
                     <input
                         type="text"
