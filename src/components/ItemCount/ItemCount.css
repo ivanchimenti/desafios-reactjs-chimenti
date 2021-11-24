@@ -1,0 +1,17 @@
+.btnComprar {
+    margin-top: 5px;
+    background-color: lightskyblue;
+    font-size: 20px;
+}
+
+.btnComprarMas {
+    background-color: lightgreen;
+}
+
+.btnComprarMenos {
+    background-color: lightcoral;
+}
+
+input {
+    text-align: center;
+}
