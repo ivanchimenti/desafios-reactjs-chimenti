@@ -1,14 +1,24 @@
 import React from 'react';
 import './App.css';
+import 'semantic-ui-css/semantic.min.css';
 
 //Components
 import Header from './components/Header/Header';
+import NavBar from './components/NavBar/NavBar';
 import UserCard from './components/UserCard/UserCard';
-import NavBar from './components/Navbar/NavBar';
 //Images
-import atm from './components/Images/atm-titular-1.jpg';
-import barca from './components/Images/barcelona-titular-1.jpg';
-import rm from './components/Images/rm-titular-1.jpg';
+import atm from './Images/atm-titular-1.jpg';
+import barca from './Images/barcelona-titular-1.jpg';
+import rm from './Images/rm-titular-1.jpg';
+import juve from './Images/juventus-titular-1.jpg';
+import inter from './Images/inter-titular-1.jpg';
+import milan from './Images/milan-titular-1.jpg';
+import chelsea from './Images/chelsea-titular-1.jpg';
+import city from './Images/city-titular-1.jpg';
+import liverpool from './Images/liverpool-titular-1.jpg';
+import united from './Images/united-titular-1.jpg';
+import psg from './Images/psg-titular-1.jpg';
+import bayern from './Images/bayern-titular-1.jpg';
 
 
 
@@ -23,8 +33,6 @@ class App extends React.Component {
         title='El sitio que vos quieras' 
         subtitle='Lo podés imaginar, lo podés hacer'/>
 
-        
-        
         <div className='UserSection'>
 
         <UserCard 
@@ -52,63 +60,63 @@ class App extends React.Component {
           name='Juventus Home 2021/22'
           cod='01234570'
           description='Camiseta Titular de la Juventus Temporada 2021/22'
-          img='./components/Images/juventus-titular-1.jpg'
+          img= {juve}
           />
           
           <UserCard 
           name='Inter Home 2021/22'
           cod='01234559'
           description='Camiseta Titular del Inter Temporada 2021/22'
-          img='./components/Images/inter-titular-1.jpg'
+          img= {inter}
           />
 
           <UserCard 
           name='Milan Home 2021/22'
           cod='01234596'
           description='Camiseta Titular del Milan Temporada 2021/22'
-          img='./components/Images/milan-titular-1.jpg'
+          img= {milan}
           />
 
           <UserCard 
           name='Chelsea Home 2021/22'
           cod='01234571'
           description='Camiseta Titular del Chelsea Temporada 2021/22'
-          img='./components/Images/chelsea-titular-1.jpg'
+          img= {chelsea}
           />
           
           <UserCard 
           name='Manchester City Home 2021/22'
           cod='01234523'
           description='Camiseta Titular del Manchester City Temporada 2021/22'
-          img='./components/Images/city-titular-1.jpg'
+          img= {city}
           />
 
           <UserCard 
           name='Liverpool Home 2021/22'
           cod='01234555'
           description='Camiseta Titular del Liverpool Temporada 2021/22'
-          img='./components/Images/liverpool-titular-1.jpg'
+          img= {liverpool}
           />
 
           <UserCard 
           name='Manchester United Home 2021/22'
           cod='01234577'
           description='Camiseta Titular del Manchester United Temporada 2021/22'
-          img='./components/Images/united-titular-1.jpg'
+          img= {united}
           />
           
           <UserCard 
           name='PSG Home 2021/22'
           cod='01234569'
           description='Camiseta Titular del PSG Temporada 2021/22'
-          img='./components/Images/psg-titular-1.jpg'
+          img= {psg}
           />
 
           <UserCard 
           name='Bayern Munich Home 2021/22'
           cod='01234588'
           description='Camiseta Titular del Bayern Munich Temporada 2021/22'
-          img='./components/Images/bayern-titular-1.jpg'
+          img= {bayern}
           />
         </div>
 
