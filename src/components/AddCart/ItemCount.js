@@ -1,17 +1,22 @@
 import React, {useState} from 'react';
 import './ItemCount.css'
 
-const ItemCount = () => {
+const ItemCount = ({stock, initial}) => {
+
 	// SETEAMOS STATE COUNTER
-	const [counter, setCounter] = useState(0);
+	const [counter, setCounter] = useState(initial);
 
 	// METODOS PARA ACTUALIZAR EL STATE
 	const handlerCounterUp = () => {
+		if (counter < stock) {
 		setCounter(counter + 1);
+		}
 	}
 		
 	const handlerCounterDown = () => {
+		if (counter > initial) {
 		setCounter(counter - 1);
+		}
 	}
 
     const logrado = () => {
@@ -41,5 +46,16 @@ export default ItemCount
 
 
 
-           
     
+//  Envia por prop al ItemCount desde el UserCard el 'stock' e 'initial'. 
+// Cuando retornes el ItemCount debe verse asi:
+
+// <ItemCount stock={5} initial={1} />
+
+// y cuando lo recibas en el itemcount lo agregas asi:
+
+// const ItemCount = ({stock, initial}) => {
+
+// const [counter, setCounter] = useState(initial);
+
+// }
