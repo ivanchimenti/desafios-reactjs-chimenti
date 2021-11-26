@@ -1,0 +1,114 @@
+{
+    "products": [ 
+                    {
+                        "name": "Atlético de Madrid Home 2021/22",
+                        "cod": "1LL",
+                        "description": "Camiseta Titular del Atlético de Madrid Temporada 2021/22",
+                        "img": "./Images/atm-titular-1.jpg",
+                        "precio": 4500,
+                        "stock": 10
+                    },
+          
+     
+                    {   
+                        "name": "Barcelona Home 2021/22",
+                        "cod": "2LL",
+                        "description": "Camiseta Titular del Barcelona Temporada 2021/22",
+                        "img": "./Images/barcelona-titular-1.jpg",
+                        "precio": 4500,
+                        "stock": 10
+                    },
+          
+
+                    {
+                        "name": "Real Madrid Home 2021/22",
+                        "cod": "3LL",
+                        "description": "Camiseta Titular del Real Madrid Temporada 2021/22",
+                        "img": "./Images/rm-titular-1.jpg",
+                        "precio": 4500,
+                        "stock": 10
+                    },
+
+     
+                    {
+                        "name": "Juventus Home 2021/22",
+                        "cod": "4SA",
+                        "description": "Camiseta Titular de la Juventus Temporada 2021/22",
+                        "img": "./Images/juventus-titular-1.jpg",
+                        "precio": 4500,
+                        "stock": 10
+                    },
+          
+                    {
+                        "name": "Inter Home 2021/22",
+                        "cod": "5SA",
+                        "description": "Camiseta Titular del Inter Temporada 2021/22",
+                        "img": "./Images/inter-titular-1.jpg",
+                        "precio": 4500,
+                        "stock": 10
+                    },
+
+                    {
+                    "name": "Milan Home 2021/22",
+                    "cod": "6SA",
+                    "description": "Camiseta Titular del Milan Temporada 2021/22",
+                    "img": "./Images/milan-titular-1.jpg",
+                    "precio": 4500,
+                    "stock": 10
+                    },
+
+                    {
+                    "name": "Chelsea Home 2021/22",
+                    "cod": "7PL",
+                    "description": "Camiseta Titular del Chelsea Temporada 2021/22",
+                    "img": "./Images/chelsea-titular-1.jpg",
+                    "precio": 4500,
+                    "stock": 10
+                    },
+          
+                    {
+                    "name": "Manchester City Home 2021/22",
+                    "cod": "8PL",
+                    "description": "Camiseta Titular del Manchester City Temporada 2021/22",
+                    "img": "./Images/city-titular-1.jpg",
+                    "precio": 4500,
+                    "stock": 10
+                    },
+
+                    {
+                    "name": "Liverpool Home 2021/22",
+                    "cod": "9PL",
+                    "description": "Camiseta Titular del Liverpool Temporada 2021/22",
+                    "img": "./Images/liverpool-titular-1.jpg",
+                    "precio": 4500,
+                    "stock": 10
+                    },
+
+                    {
+                    "name": "Manchester United Home 2021/22",
+                    "cod": "10PL",
+                    "description": "Camiseta Titular del Manchester United Temporada 2021/22",
+                    "img": "./Images/united-titular-1.jpg",
+                    "precio": 4500,
+                    "stock": 10
+                    },
+          
+                    {
+                    "name": "PSG Home 2021/22",
+                    "cod": "11LO",
+                    "description": "Camiseta Titular del PSG Temporada 2021/22",
+                    "img": "./Images/psg-titular-1.jpg",
+                    "precio": 4500,
+                    "stock": 10
+                    },
+
+                    {
+                    "name": "Bayern Munich Home 2021/22",
+                    "cod": "12BDL",
+                    "description": "Camiseta Titular del Bayern Munich Temporada 2021/22",
+                    "img": "./Images/bayern-titular-1.jpg",
+                    "precio": 4500,
+                    "stock": 10
+                    }
+    ]
+}
