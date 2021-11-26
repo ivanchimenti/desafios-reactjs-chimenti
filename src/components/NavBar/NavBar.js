@@ -23,9 +23,9 @@ const NavBar = () => {
                 </div>
 
                 <ul>
-                    <li><a href="https://www.google.com">Inicio</a></li>
+                    <li><a href="../../../public/index.html">Inicio</a></li>
 
-                    <li><a href="https://www.google.com">Producto</a></li>
+                    <li><a href="../../App.js/.UserSection">Producto</a></li>
 
                     <li><a href="https://www.google.com">Nosotros</a></li>
 
