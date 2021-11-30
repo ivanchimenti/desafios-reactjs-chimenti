@@ -1,6 +1,6 @@
 import React from 'react'
 import { Card, Image } from 'semantic-ui-react'
-import ItemCount from '../AddCart/ItemCount'
+import ItemCount from '../ItemCount/ItemCount'
 import './UserCard.css'
 
 const UserCard = ({name, cod, description, img, precio}) => (

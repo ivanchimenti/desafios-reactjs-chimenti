@@ -6,20 +6,21 @@ import 'semantic-ui-css/semantic.min.css';
 import Header from './components/Header/Header';
 import NavBar from './components/NavBar/NavBar';
 import UserCard from './components/UserCard/UserCard';
-// import CardContainer from './components/CardContainer/CardContainer';
+import CardContainer from './components/CardContainer/CardContainer';
+import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 //Images
-import atm from './Images/atm-titular-1.jpg';
-import barca from './Images/barcelona-titular-1.jpg';
-import rm from './Images/rm-titular-1.jpg';
-import juve from './Images/juventus-titular-1.jpg';
-import inter from './Images/inter-titular-1.jpg';
-import milan from './Images/milan-titular-1.jpg';
-import chelsea from './Images/chelsea-titular-1.jpg';
-import city from './Images/city-titular-1.jpg';
-import liverpool from './Images/liverpool-titular-1.jpg';
-import united from './Images/united-titular-1.jpg';
-import psg from './Images/psg-titular-1.jpg';
-import bayern from './Images/bayern-titular-1.jpg';
+// import atm from './Images/atm-titular-1.jpg';
+// import barca from './Images/barcelona-titular-1.jpg';
+// import rm from './Images/rm-titular-1.jpg';
+// import juve from './Images/juventus-titular-1.jpg';
+// import inter from './Images/inter-titular-1.jpg';
+// import milan from './Images/milan-titular-1.jpg';
+// import chelsea from './Images/chelsea-titular-1.jpg';
+// import city from './Images/city-titular-1.jpg';
+// import liverpool from './Images/liverpool-titular-1.jpg';
+// import united from './Images/united-titular-1.jpg';
+// import psg from './Images/psg-titular-1.jpg';
+// import bayern from './Images/bayern-titular-1.jpg';
 
 
 
@@ -36,7 +37,7 @@ class App extends React.Component {
 
         <div className='UserSection'>
 
-          <UserCard 
+          {/* <UserCard 
             name='Atlético de Madrid Home 2021/22'
             cod='01234568'
             description='Camiseta Titular del Atlético de Madrid Temporada 2021/22'
@@ -142,10 +143,11 @@ class App extends React.Component {
             img= {bayern}
             precio={4500}
             stock={10}
-            />
+            /> */}
         </div>
-
-        {/* <CardContainer/> */}
+        
+        <CardContainer/>
+        
 
       </div>
     );
