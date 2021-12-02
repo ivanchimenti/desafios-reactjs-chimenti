@@ -1,4 +1,4 @@
-/* .CardContainer {
+.ItemContainer {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
@@ -7,8 +7,8 @@
 	padding: 25px;
 }
 
-.CardUser {
+.Item {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	margin: 20px;
-} */
+}

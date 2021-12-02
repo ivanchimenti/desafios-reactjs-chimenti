@@ -43,19 +43,3 @@ const ItemCount = ({stock, initial}) => {
 		
 
 export default ItemCount
-
-
-
-    
-//  Envia por prop al ItemCount desde el UserCard el 'stock' e 'initial'. 
-// Cuando retornes el ItemCount debe verse asi:
-
-// <ItemCount stock={5} initial={1} />
-
-// y cuando lo recibas en el itemcount lo agregas asi:
-
-// const ItemCount = ({stock, initial}) => {
-
-// const [counter, setCounter] = useState(initial);
-
-// }

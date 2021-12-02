@@ -6,9 +6,14 @@
     background-color: red;
     width: 100%;
     min-height: 30vh;
-    border: 10px solid darkblue;
+    border: 10px solid rgb(0, 0, 170);
 }
 
 .Header h1, h2 {
     color: white;
+}
+
+.Logos {
+    display: flex;
+    justify-content: space-between;
 }

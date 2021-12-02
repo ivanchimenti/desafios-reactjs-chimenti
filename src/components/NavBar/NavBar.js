@@ -1,7 +1,9 @@
 import React, { Fragment } from "react";
-import './NavBar.css';
-import logo from './logo512.png';
 import { Icon } from 'semantic-ui-react';
+import ProductosListContainer from "../ProductosListContainer/ProductosListContainer";
+import './NavBar.css';
+// Images
+import logo from './logo-champion.png';
 
 const NavBar = () => {
 
@@ -13,19 +15,23 @@ const NavBar = () => {
                 <Icon name='cart arrow down' style={{fontSize: "5em", marginTop: "50px", color:"red"}}/>
 
                 <div className="barraBusqueda">
-                    <input
-                        type="text"
+                    {/* <input
+                        type="text" onChange={actBusq}
+                        value={busqueda}
                         placeholder="Buscar"
                         className="textField"
                         name="busqueda">
-                    </input>
-                    <input type="submit" value="Buscar"></input>
+                    </input> 
+                    <input type="submit" value="Buscar"></input> */}
+                    {/* <input type="text" onChange={actBusq} value={busqueda}/> */}
+
+                    <ProductosListContainer/>
                 </div>
 
                 <ul>
-                    <li><a href="https://www.google.com">Inicio</a></li>
+                    <li><a href="../../../public/index.html">Inicio</a></li>
 
-                    <li><a href="https://www.google.com">Producto</a></li>
+                    <li><a href="../../App.js/.UserSection">Producto</a></li>
 
                     <li><a href="https://www.google.com">Nosotros</a></li>
 
