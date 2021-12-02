@@ -1,8 +1,7 @@
 import {React, useState, useEffect} from 'react'
-import ItemDetail from '../ItemDetail/ItemDetail';
-// import { useEffect } from 'react/cjs/react.development';
+import Item from '../Item/Item';
 
-const ItemListContainer = () => {
+const ProductosListContainer = () => {
     const [busqueda, setBusqueda] = useState('');
     const [productos, setProductos] = useState([]);
 
@@ -28,11 +27,11 @@ const ItemListContainer = () => {
 
             {
                 productos.map((producto, indice) => (
-                    <ItemDetail producto={producto} key={indice}/>
+                    <Item producto={producto} key={indice}/>
                 ))
             }
         </>
     )
 }
 
-export default ItemListContainer; 
+export default ProductosListContainer; 

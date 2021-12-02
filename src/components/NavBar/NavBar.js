@@ -1,9 +1,9 @@
 import React, { Fragment } from "react";
-import logo from './logo-champion.png';
 import { Icon } from 'semantic-ui-react';
+import ProductosListContainer from "../ProductosListContainer/ProductosListContainer";
 import './NavBar.css';
-import ItemListContainer from "../ItemListContainer/ItemListContainer";
-import { actBusq, busqueda } from  "../ItemListContainer/ItemListContainer";
+// Images
+import logo from './logo-champion.png';
 
 const NavBar = () => {
 
@@ -25,7 +25,7 @@ const NavBar = () => {
                     <input type="submit" value="Buscar"></input> */}
                     {/* <input type="text" onChange={actBusq} value={busqueda}/> */}
 
-                    <ItemListContainer/>
+                    <ProductosListContainer/>
                 </div>
 
                 <ul>

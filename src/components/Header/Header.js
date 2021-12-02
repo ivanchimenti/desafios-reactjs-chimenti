@@ -1,8 +1,6 @@
-// rafce
 import React from 'react';
 import './Header.css';
-
-import logo from './logo.png';
+// Images
 import adidas from './logo-adidas.png';
 import nike from './logo-nike.png';
 import jordan from './logo-jordan.png';
@@ -12,7 +10,6 @@ import puma from './logo-puma.png';
 const Header = (props) => {
     return (
         <div style={{backgroundColor: `${props.color}`}} className='Header'>
-            {/* <img src={logo} alt="logo www wide" /> */}
             <div className='Logos'>
                 <img src={adidas} alt="Adidas" />
                 <img src={nike} alt="Nike" />
