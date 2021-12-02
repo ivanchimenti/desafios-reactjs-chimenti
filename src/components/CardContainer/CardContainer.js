@@ -3,13 +3,13 @@ import './CardContainer.css';
 import UserCard from '../UserCard/UserCard';
 
 const CardContainer = () => {
-	const [users, setUsers] = useState([]);
+	// const [users, setUsers] = useState([]);
 
-	useEffect(() => {
-		fetch('')
-			.then((response) => response.json())
-			.then((json) => setUsers(json));
-	}, []);
+	// useEffect(() => {
+	// 	fetch('')
+	// 		.then((response) => response.json())
+	// 		.then((json) => setUsers(json));
+	// }, []);
 
 	return (
 		<div className='CardContainer'>
