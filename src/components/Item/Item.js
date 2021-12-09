@@ -3,23 +3,23 @@ import { Card, Image } from 'semantic-ui-react'
 import ItemCount from '../ItemCount/ItemCount'
 import 'semantic-ui-css/semantic.min.css'
 
-const Item = ({ producto }) => (
+const Item = ({ data }) => (
     <Card>
-        <Image src={producto.thumbnail} wrapped ui={false} />
+        <Image src={data.avatar_url} wrapped ui={false} />
         <Card.Content>
-        <Card.Header>{producto.title}</Card.Header>
-        <Card.Meta>
-            <span>{producto.id}</span>
-        </Card.Meta>
-        <Card.Description>
-            {producto.description ? producto.description : 'Sin descripcion'}
-            <p style={{fontWeight:'bold'}}>Precio: ${producto.price}</p>
-        </Card.Description>    
+            <Card.Header>{data.login}</Card.Header>
+            <Card.Meta>
+                <span>{data.id}</span>
+            </Card.Meta>
+            <Card.Description>
+                {data.description ? data.description : 'Sin descripcion'}
+                <p style={{fontWeight:'bold'}}>Precio: ${data.price ? data.price : '1500'}</p>
+            </Card.Description>    
         </Card.Content>
         <Card.Content extra>
             <ItemCount stock={5} initial={0}/>
         </Card.Content>
     </Card>
-)
+);
 
 export default Item;

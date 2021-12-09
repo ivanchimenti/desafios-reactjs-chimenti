@@ -6,7 +6,7 @@ const ItemContainer = () => {
 	const [items, setItems] = useState([]);
 
 	useEffect(() => {
-		fetch('https://api.mercadolibre.com/sites/MLA/search?q=&limit=5#json')
+		fetch('https://api.github.com/users')
 			.then((response) => response.json())
 			.then((json) => setItems(json));
 	}, []);
