@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import { Icon } from 'semantic-ui-react';
-import ProductosListContainer from "../ProductosListContainer/ProductosListContainer";
+// import ProductosListContainer from "../ProductosListContainer/ProductosListContainer";
 import './NavBar.css';
 // Images
 import logo from './logo-champion.png';
@@ -15,17 +15,16 @@ const NavBar = () => {
                 <Icon name='cart arrow down' style={{fontSize: "5em", marginTop: "50px", color:"red"}}/>
 
                 <div className="barraBusqueda">
-                    {/* <input
-                        type="text" onChange={actBusq}
-                        value={busqueda}
-                        placeholder="Buscar"
+                    <input
+                        type="text" //onChange={actBusq}
+                        //value={busqueda}
                         className="textField"
                         name="busqueda">
                     </input> 
-                    <input type="submit" value="Buscar"></input> */}
+                    <input type="submit" value="Buscar"></input>
                     {/* <input type="text" onChange={actBusq} value={busqueda}/> */}
 
-                    <ProductosListContainer/>
+                    {/* <ProductosListContainer/> */}
                 </div>
 
                 <ul>
