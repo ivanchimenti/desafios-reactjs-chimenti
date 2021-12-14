@@ -13,7 +13,7 @@ const ItemContainer = () => {
 
 	return (
 		<div className='ItemContainer'>
-			<h1>Productos</h1>
+			<h2>Productos</h2>
 			<div className='Item'>
 				{items.map((item) => {
 					return <Item data={item} key={item.id} />;
