@@ -17,7 +17,7 @@ const Item = ({ data }) => (
             </Card.Description>    
         </Card.Content>
         <Card.Content extra>
-            <ItemCount stock={5} initial={0}/>
+            <ItemCount stock={5} initial={1}/>
         </Card.Content>
     </Card>
 );

@@ -11,7 +11,7 @@ const CardContainer = () => {
 
 	useEffect(() => {
 		axios(
-			'https://api.nasa.gov/planetary/apod?api_key=y8njdeILF6vhGd56jAgglx9H7iqPpyNGXlLz0Msh'
+			'https://api.nasa.gov/planetary/apod?api_key=Mn8DdLQGaRWTze8fu7h3a2TXYthYqNfYXMo4DDfx'
 		).then((res) => setData(res.data));
 		setTimeout(() => {
 			setIsLoading(false);
